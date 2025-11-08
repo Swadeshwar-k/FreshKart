@@ -7,7 +7,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Login from './Login';
 import { logout } from "../redux/authSlice";
-import userImg from "../images/user.png"
+
 
 function Header() {
  
@@ -50,7 +50,7 @@ function Header() {
         {isLoggedIn ? (
 
           <div className={headerStyle.user}>
-          <img src={userImg} alt="" />
+          <img src="/user.png" alt="user" />
           <div className={headerStyle.menuContainer}>
             <div className={headerStyle.menu}>
               <div className={headerStyle.menuItem}>My Profile</div>
