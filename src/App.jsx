@@ -8,6 +8,7 @@ import Final from './Components/Final'
 import Login from './Components/Login'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from './Components/Footer'
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/final' element={ <Final />} />
         <Route path='/items/:type' element={ <Items />} />
       </Routes>
+      <Footer/>
       <ToastContainer />
     </>
   )

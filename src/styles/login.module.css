@@ -1,11 +1,11 @@
 .loginContainer {
   width: 400px;
-  height: 480px;
+  height: 400px;
   margin: 0px auto;
   border-radius: 5px;
   border: 1px solid #d7d7d7;
   position: relative;
-  top: 125px;
+  top: 80px;
 }
 
 .heading {
@@ -30,11 +30,11 @@ label {
 
 input {
   width: 317px;
-  height: 35px;
+  height: 30px;
   border-radius: 5px;
   border: 1px solid #d7d7d7;
   font-size: 20px;
-  padding: 5px 10px;
+  padding: 5px 15px;
 }
 
 .error {
