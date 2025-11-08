@@ -133,4 +133,142 @@ a.active {
 
 .user:hover .menuContainer .menu {
   display: block;
+
+
 }
+
+
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+  }
+
+  .cart {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .login, .user {
+    position: static;
+    margin-top: 10px;
+  }
+}
+/* 
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: px;
+    margin-bottom: 10px;
+  }
+
+  .navItem {
+    margin: 0;
+  }
+
+  .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+  }
+
+  .cart img {
+    display: none; 
+  }
+
+  .login,
+  .user {
+    position: relative; 
+    margin-top: 5px;
+  }
+
+  .menuContainer {
+    position: static;
+  }
+} */
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Grid layout: two tight rows */
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 6px 40px; /* controls space between columns/rows */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navItem {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cart,
+  .login {
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart img {
+    display: none; /* hide the cart image */
+  }
+
+  /* Reduce top/bottom gap for tighter layout */
+  .navItem:nth-child(1),
+  .navItem:nth-child(2),
+  .cart,
+  .login {
+    margin: 0;
+  }
+
+  /* optional: reduce extra vertical spacing */
+  .nav {
+    row-gap: 5px;
+  }
+}
+

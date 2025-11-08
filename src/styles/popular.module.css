@@ -74,3 +74,31 @@
 .cta {
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .itemsContainer {
+    padding: 20px;
+  }
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .picContainer img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    width: 90%;
+  }
+}

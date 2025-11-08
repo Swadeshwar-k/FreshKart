@@ -48,3 +48,22 @@
   padding-top: 10px;
 }
 
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .copy {
+    font-size: 12px;
+  }
+}
