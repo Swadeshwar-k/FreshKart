@@ -50,8 +50,9 @@ function Header() {
         {isLoggedIn ? (
 
           <div className={headerStyle.user}>
-          <img src="/user.png" alt="user" />
-          <div className={headerStyle.menuContainer}>
+
+            <img src="/user.png" alt="user" />
+            <div className={headerStyle.menuContainer}>
             <div className={headerStyle.menu}>
               <div className={headerStyle.menuItem}>My Profile</div>
               <div className={headerStyle.menuItem}>Order history</div>
