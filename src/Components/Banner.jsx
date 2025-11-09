@@ -8,20 +8,23 @@ import fruitImg from "../images/Fruits.png";
 import beansImg from "../images/Beans.png";
 import { Link } from 'react-router-dom';
 
+
 function Banner() {
+   
+
   return (
     <div>
-        <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showThumbs={false} showStatus={false}>
-                <div >
+        <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showThumbs={false} showStatus={false} >
+                <div  >
                     <img src={vegImg} />
                     <div className={bannerStyle.heading}>Get Potatoes</div>
-                    <div className={bannerStyle.desc}>Buy vegetables and get potatoes free. Conditions apply</div>
+                    <div className={bannerStyle.desc}>Buy vegetables and get potatoes free.</div>
                     <div className={bannerStyle.cta}><Link to="/items/vegtables">Shop Now</Link></div>
                 </div>
                 <div>
                     <img src={appleImg} />
                     <div className={bannerStyle.heading}> An apple a day keeps doctor away</div>
-                    <div className={bannerStyle.desc}>The apple (Malus domestica) is a widely cultivated fruit known for its sweet taste.</div>
+                    <div className={bannerStyle.desc}>The apple is a widely cultivated fruit.</div>
                     <div className={bannerStyle.cta}><Link to="/items/fruit">Shop Now</Link></div>
                 </div>
                 <div>
@@ -42,3 +45,6 @@ function Banner() {
 }
 
 export default Banner
+
+
+

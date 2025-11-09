@@ -45,13 +45,14 @@
   .heading {
     top: 30px;
     left: 20px;
-    font-size: 28px;
+    font-size: 16px;
   }
 
   .desc {
     top: 80px;
     left: 20px;
     font-size: 16px;
+    
   }
 
   .cta {
@@ -59,4 +60,6 @@
     left: 20px;
     padding: 5px 10px;
   }
+
 }
+

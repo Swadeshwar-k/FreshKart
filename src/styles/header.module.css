@@ -154,7 +154,7 @@ a.active {
     width: 100%;
     justify-content: center;
     gap: 20px;
-    margin: 10px 0;
+
   }
 
   .cart {
@@ -235,7 +235,7 @@ a.active {
   .nav {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 6px 40px; /* controls space between columns/rows */
+    gap: 10px; /* controls space between columns/rows */
     justify-content: center;
     text-align: center;
   }
@@ -248,10 +248,13 @@ a.active {
 
   .cart,
   .login {
+     display: grid;
+    grid-template-columns: repeat(2, auto);
     position: static;
     display: flex;
     align-items: center;
     justify-content: center;
+    size: 16px;
   }
 
   .cart img {
