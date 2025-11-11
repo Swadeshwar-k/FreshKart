@@ -1,15 +1,4 @@
-// import React from 'react'
-// import footerStyle from "../styles/footer.module.css";
 
-// function Footer() {
-//   return (
-//     <div className={footerStyle.footer}>
-//       <p className={footerStyle.copy}>©{new Date().getFullYear()} Swadeshwar_K. All rights reserved.</p>
-//     </div>
-//   )
-// }
-
-// export default Footer
 import React from "react";
 import footerStyle from "../styles/footer.module.css";
 import { NavLink } from "react-router-dom";
