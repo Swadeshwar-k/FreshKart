@@ -10,7 +10,8 @@ function Footer() {
         <div className={footerStyle.logo}>
           <NavLink to="/home">FreshKart</NavLink>
           <div className={footerStyle.copy}>
-            © {new Date().getFullYear()} FreshKart. All rights reserved.
+            © {new Date().getFullYear()} FreshKart. All rights reserved .
+            
           </div>
         </div>
       </div>
