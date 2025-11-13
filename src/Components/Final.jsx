@@ -5,7 +5,7 @@ function Final() {
   return (
     <div className={finalStyles.finalContainer}>
         <div className={finalStyles.message}>
-            Your order is successfully Placed
+            Your order is successfully Placed!
         </div>
       
     </div>
